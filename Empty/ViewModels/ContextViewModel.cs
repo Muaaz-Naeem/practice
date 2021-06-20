@@ -10,6 +10,7 @@ namespace Empty.ViewModels
     {
         // here's a change
         //practice branch
+        //another commit to practiceBranch
        public static List<ContextItem> contextItems = new List<ContextItem>();
       
     }
