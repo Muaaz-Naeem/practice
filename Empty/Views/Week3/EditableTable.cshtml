@@ -1,0 +1,61 @@
+﻿@model  IList<Empty.Models.Employee>
+@{
+    ViewBag.Title = "EditableTable";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+
+    $(document).ready(function () {
+        $("#add").click(function () {
+            console.log("clicked")
+            $('#EmployeeTable tr:last').after('<tr><td> <input type="text class="form-control"> </td><td> <input type="text">   </td></tr>');
+            //$('#tbody').append('<tr><>')
+
+        });
+    });
+    //$('#submit').click(function () {
+    //    console.log('clicked');
+    //    $('#EmployeeTable tr:last').after('<tr>...</tr><tr>...</tr>');
+
+    //});
+</script>
+<h2>Editable Table</h2>
+
+<button id="add" class=" btn btn-success align-content-lg-end my-2">+ </button>
+@using (@Html.BeginForm("EditTable", "Week3", FormMethod.Get))
+{
+
+    <table id="EmployeeTable" class=" table table-hover table-striped table-bordered active">
+        <thead class="thead-light">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+                @Html.HiddenFor(e => Model[i].ID)
+                <tr>
+                    <td>
+                        @Html.EditorFor(e => Model[i].Name, new { htmlAttributes = new { @class = "form-control" } })
+                    </td>
+                    <td>
+                        @Html.EditorFor(e => Model[i].Address, new { htmlAttributes = new { @class = "form-control" } })
+                    </td>
+                </tr>
+            }
+            @foreach (var employee in Model)
+            {
+
+            }
+
+        </tbody>
+    </table>
+    <input type="submit" value="Save" class="btn btn-primary"  />
+
+    @*<div class="row text-white" style="flex-direction:row">
+            <a class="btn btn-primary my-2"  >Submit</a>
+            <a class="btn bg-success my-2" style="margin:1%">+</a>
+        </div>*@
+}

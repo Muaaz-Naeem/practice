@@ -1,0 +1,11 @@
+﻿@model Empty.Models.TestModel
+@{
+    ViewBag.Title = "Raw";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Raw</h2>
+
+@Html.Raw(@ViewBag.rawHTML)
+
+@Html.DisplayFor(x=>x.Money)

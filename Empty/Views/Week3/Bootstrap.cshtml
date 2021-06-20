@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "Bootstrap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="justify-content-end">
+    <span class="badge badge-primary">Bootstrap</span>
+
+</div>
+
+<div class="row">
+    <div class="col-xl-6 bg-danger"><h1>my first heading</h1></div>
+    <div class="col-xl-6 bg-dark"><h1>my second heading</h1></div>
+</div>
+
+<div class="container p-2 my-4 border bg-dark text-white ">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a border and some extra padding and margins.</p>
+</div>
+<div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    Bootstrap is the most popular HTML, CSS...
+</div>
+
+
+<div class="card-deck">
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"> Eiffel Tower</h4>
+            <img class="card-img-top" src="~/Images/tower.jpg" />
+            <p class=" card-text">  this is some sdf asasdf asdf saksadf kk safdas   asfd ksadf kaskd fsa kfsa dkfasdf kasdf a</p>
+            <button class="btn btn-primary">Apply  </button>
+        </div>
+    </div>
+    <div class="card bg-warning">
+        <div class="card-body text-center">
+            <p class="card-text">Some text inside the second card</p>
+        </div>
+    </div>
+    <div class="card bg-success">
+        <div class="card-body text-center">
+            <p class="card-text">Some text inside the third card</p>
+        </div>
+    </div>
+    <div class="card bg-danger">
+        <div class="card-body text-center">
+            <p class="card-text">Some text inside the fourth card</p>
+        </div>
+    </div>
+</div>
+
+<div class="card my-2 col-sm-8 ">
+    <div class="card-body ">
+        <h4 class="card-title">Need a Painter to paint office</h4>
+        <h6 class="card-title">Description:</h6>
+        <p class="card-text">Preparing painting surfaces by washing walls, repairing holes, or removing old paint. Mixing, matching, and applying paints and other finishes to various surfaces. Providing decorative and faux finishes as the project requires. ... Choosing and purchasing paint, brushes, and other supplies from vendors.</p>
+        <i class="fas fa-street-view" fa-5x></i>Lahore
+        <i class="fas fa-coins " fa-fx></i>$16
+        <button class="btn btn-secondary">Apply</button>
+
+    </div>
+</div>
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+</ul>
+
+<input class="form-control" type="text" />
+<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+<form>
+    <div class="row">
+        <div class="col">
+
+            
+            <div class="row">
+                <label class="m-2">Uername </label>
+                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <label class="m-2">Password </label>
+
+                <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+        
+        </div>
+
+    </div>
+</form>

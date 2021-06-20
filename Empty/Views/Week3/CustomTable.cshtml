@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Empty.Models.Student>
+
+    @using Empty.CustomHelpers
+@{
+    ViewBag.Title = "CustomTable";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CustomTable</h2>
+
+@Html.CustomTbl(Model.ToList())

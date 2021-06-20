@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+@using System.Web.Optimization 
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+   
+
+ 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md   bg-dark navbar-dark justify-content-center  ">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Practice</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            <ul class="navbar-nav  ">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Index","Home")">CRUD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("ContextItems","Home")">Context Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("showSection","Home")">Section</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Create","Home")">Form</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("CustomHelperMethods","Home")">Custom Helpers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Raw","Home")">Raw HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("CustomTable","Week3")">Custom Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Bootstrap","Week3")">Bootstrap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("EditableTable","Week3")">Editable Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("FileUpload","Week3")">Upload Image</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <footer>
+        <div class="container body-content">
+            @RenderBody()
+            @RenderSection("bottomContent", required: false)
+
+            <hr />
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+
+    </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/excludechar.js"></script>
+
+
+</body>
+</html>

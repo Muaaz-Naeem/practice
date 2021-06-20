@@ -1,0 +1,36 @@
+﻿
+@using Empty.ViewModels
+
+@{
+    ViewBag.Title = "ContextItems";
+
+}
+<h2>ContextItems</h2>
+@{
+    var items = ContextViewModel.contextItems;
+}
+<table class="table table-bordered table-striped table-hover" >
+    <thead class="thead-dark">
+        <tr >
+            <th>Property</th>
+            <th>Value</th>
+        </tr>
+
+    </thead>
+
+    <tbody >
+        @foreach (var contextItem in items)
+        {
+            <tr>
+                <td>
+                    @contextItem.property
+                </td>
+                <td style="text-align:left">
+                    @contextItem.Value
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>

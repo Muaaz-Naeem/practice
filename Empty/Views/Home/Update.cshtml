@@ -1,0 +1,22 @@
+﻿@model Empty.Models.Student
+@{
+    ViewBag.Title = "Update";
+}
+@using Empty.CustomHelpers
+<h2>Update</h2>
+
+
+@using (Html.BeginForm())
+{
+
+    @Html.HiddenFor(x => x.ID)
+    @Html.TextBoxFor(x => x.Name)
+    @Html.CustomFor(x=>x.Name,"")
+
+    <input type="Submit" value="Update" />
+
+}
+@section bottomContent{<h1>Update content  by Bottom section</h1>}
+ 
+@*@Html.Partial("ContextPartial",null);*@
+

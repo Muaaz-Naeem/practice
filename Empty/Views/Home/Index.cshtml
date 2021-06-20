@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Empty.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using Empty.CustomHelpers
+@{
+    List<string> stringList = new List<string> { "one", "two","three","four" };
+}
+
+<h2>
+    Click @Html.ActionLink("here", "ContextItems") to get Context information.
+
+</h2>
+<h3>Students</h3>
+@Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-secondary" })
+<ul>
+    @foreach (var student in Model)
+    {
+        <li>
+            @student.Name
+            @Html.ActionLink("Delete", "Delete", new { id = student.ID })
+            @Html.ActionLink("Update", "Update", new { id = student.ID })
+
+        </li>
+    }
+
+
+</ul>
+ 
+@Html.CustomTbl(Model.ToList())
