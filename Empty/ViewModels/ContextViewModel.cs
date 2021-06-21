@@ -8,6 +8,7 @@ namespace Empty.ViewModels
 {
     public class ContextViewModel   
     {
+        // here's a change
        public static List<ContextItem> contextItems = new List<ContextItem>();
       
     }
