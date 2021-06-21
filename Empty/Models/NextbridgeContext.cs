@@ -6,10 +6,11 @@ using System.Web;
 
 namespace Empty.Models
 {
-    public class Nextbridge:DbContext
+    public class NextbridgeContext:DbContext
     {
-        public Nextbridge():base("SchoolDbContext")
+        public NextbridgeContext()
         {
+
          }
         public DbSet<Employee> employees { get; set; }
     }
