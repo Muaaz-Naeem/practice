@@ -79,3 +79,7 @@ C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\WebGrease.dll
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Antlr3.Runtime.pdb
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Newtonsoft.Json.xml
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\System.Web.Optimization.xml
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.xml
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.SqlServer.xml

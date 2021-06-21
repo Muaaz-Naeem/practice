@@ -8,7 +8,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Caching;
 using System.Web.Mvc;
-using System.Web.UI;
+using System.Web.UI;                            
 using System.Runtime.Caching;
 
 namespace Empty.Controllers
@@ -34,6 +34,11 @@ namespace Empty.Controllers
 
              if (name == null)
             {
+                var x = HttpRuntime.Cache;
+                var y = HttpContext.Cache;
+                var xy = MemoryCache.Default["name"];
+                var yz = new Cache();
+                
 
                 //caching a single object
                 employee = new Employee { ID = 1, Name = "Muaaz" };
@@ -60,6 +65,7 @@ namespace Empty.Controllers
 
         public ActionResult UsingCookies()
         {
+          
             //Using Cookie Dictionary
 
             HttpCookie cookie = new HttpCookie("CookieName");

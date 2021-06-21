@@ -11,7 +11,7 @@ namespace Empty.ViewModels
         //commit from main 
         public EmployeeViewModel()
         {
-            employees = new List<Employee>();
+         //    employees = new List<Employee>();
         }
         public List<Employee> employees { get; set; }
     }
