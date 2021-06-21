@@ -211,12 +211,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106211627332_initialMigration.cs" />
+    <Compile Include="Migrations\202106211627332_initialMigration.Designer.cs">
+      <DependentUpon>202106211627332_initialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
     <Compile Include="Models\Counter.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\FileModel.cs" />
+    <Compile Include="Models\Nextbridge.cs" />
     <Compile Include="Models\Person.cs">
       <DependentUpon>SchoolModel.tt</DependentUpon>
     </Compile>
@@ -311,6 +317,11 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202106211627332_initialMigration.resx">
+      <DependentUpon>202106211627332_initialMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

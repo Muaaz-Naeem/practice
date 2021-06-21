@@ -83,3 +83,5 @@ C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.dll
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.SqlServer.dll
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.xml
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.initialMigration.resources
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.csproj.GenerateResource.cache
