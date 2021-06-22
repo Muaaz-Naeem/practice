@@ -11,6 +11,7 @@ namespace Empty.Migrations
         {
             AutomaticMigrationsEnabled = false;
             ContextKey = "Empty.NextbridgeContext";
+
         }
 
         protected override void Seed(Empty.Models.NextbridgeContext context)
