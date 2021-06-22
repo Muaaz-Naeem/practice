@@ -265,6 +265,7 @@
       <DependentUpon>SchoolModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Section.cs" />
+    <Compile Include="Models\Skill.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Subject.cs" />
     <Compile Include="Models\TestModel.cs" />
