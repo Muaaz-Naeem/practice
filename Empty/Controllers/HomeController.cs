@@ -18,11 +18,13 @@ namespace Empty.Controllers
         // GET: Home
 
 
-     
+
         public ActionResult Raw()
         {
+
+
             TestModel tm = new TestModel { Money = 90 };
-            
+
             ViewBag.rawHTML = "<b>this is a bold text from raw HTML</b>";
 
             return View(tm);
@@ -50,37 +52,37 @@ namespace Empty.Controllers
         public ViewResult Index()
         {
 
- 
+
             //ViewBag.list = stringList;
             return View(Section.students.ToList());
         }
 
-       
+
 
         public PartialViewResult EmptList()
         {
             return PartialView("empt");
         }
 
-        public ActionResult Delete(int ? id)
+        public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            var student = Section.students.Find(x=>x.ID==id);
+            var student = Section.students.Find(x => x.ID == id);
 
 
             Section.students.Remove(student);
             return RedirectToAction("Index");
         }
 
-        
+
         public ViewResult Create()
         {
-             //StudentViewModel student = new StudentViewModel { sections = School.sections };
-             ViewBag.Sections= new SelectList(School.sections, "ID", "Name");
-             return View();
+            //StudentViewModel student = new StudentViewModel { sections = School.sections };
+            ViewBag.Sections = new SelectList(School.sections, "ID", "Name");
+            return View();
         }
 
         [HttpPost]
@@ -116,11 +118,11 @@ namespace Empty.Controllers
             ViewBag.Sections = new SelectList(School.sections, "ID", "Name");
 
             return View();
-             //student.ID = Section.students.Last().ID + 1;
+            //student.ID = Section.students.Last().ID + 1;
             //Student newStudent = new Student { ID = student.ID, Name = student.Name };
             //Section.students.Add(newStudent);
             //return RedirectToAction("Index");
- 
+
         }
 
 
@@ -128,7 +130,7 @@ namespace Empty.Controllers
         public JsonResult IsAlreadyExist(string Name)
         {
 
-            return Json(!Section.students.Any(student=>student.Name==Name));
+            return Json(!Section.students.Any(student => student.Name == Name));
 
         }
 
@@ -138,7 +140,7 @@ namespace Empty.Controllers
         {
 
             return Json(IsUserAvailable(UserEmailId));
- 
+
         }
         public bool IsUserAvailable(string EmailId)
         {
@@ -190,7 +192,7 @@ namespace Empty.Controllers
         }
 
 
-        public ViewResult Update(int id )
+        public ViewResult Update(int id)
         {
             var student = Section.students.Find(x => x.ID == id);
 
@@ -198,7 +200,7 @@ namespace Empty.Controllers
         }
 
         [HttpPost]
-        public ActionResult Update( Student student)
+        public ActionResult Update(Student student)
         {
             var studentStored = Section.students.Find(x => x.ID == student.ID);
             studentStored.Name = student.Name;
@@ -206,8 +208,9 @@ namespace Empty.Controllers
 
         }
 
+  
+   }
 
 
-
-    }
 }
+ 

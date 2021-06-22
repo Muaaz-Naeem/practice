@@ -15,6 +15,7 @@ namespace Empty.Models
         public string Address { get; set; }
 
         public string Biography { get; set; }
+        public List <EmployeeSkills> EmployeeSkills { get; set; }
 
         //public List<Skill> Skills { get; set; }
 

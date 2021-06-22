@@ -251,6 +251,14 @@
     <Compile Include="Migrations\202106222026139_skill_employee_relation_removed.Designer.cs">
       <DependentUpon>202106222026139_skill_employee_relation_removed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106222036207_employee_skill_model.cs" />
+    <Compile Include="Migrations\202106222036207_employee_skill_model.Designer.cs">
+      <DependentUpon>202106222036207_employee_skill_model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106222052483_employee_and_skil_linked_employeeSkills.cs" />
+    <Compile Include="Migrations\202106222052483_employee_and_skil_linked_employeeSkills.Designer.cs">
+      <DependentUpon>202106222052483_employee_and_skil_linked_employeeSkills.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
@@ -387,6 +395,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106222026139_skill_employee_relation_removed.resx">
       <DependentUpon>202106222026139_skill_employee_relation_removed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106222036207_employee_skill_model.resx">
+      <DependentUpon>202106222036207_employee_skill_model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106222052483_employee_and_skil_linked_employeeSkills.resx">
+      <DependentUpon>202106222052483_employee_and_skil_linked_employeeSkills.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

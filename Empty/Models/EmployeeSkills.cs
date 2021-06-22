@@ -8,7 +8,7 @@ namespace Empty.Models
     public class EmployeeSkills
     {
 
-        
+        public int ID { get; set; }
         public int EmployeeID { get; set; }
         public int SkillID { get; set; }
 
