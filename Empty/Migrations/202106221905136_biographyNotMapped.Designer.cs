@@ -7,13 +7,13 @@ namespace Empty.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class biographyNotMapped1 : IMigrationMetadata
+    public sealed partial class biographyNotMapped : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(biographyNotMapped1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(biographyNotMapped));
         
         string IMigrationMetadata.Id
         {
-            get { return "202106221901541_biographyNotMapped1"; }
+            get { return "202106221905136_biographyNotMapped"; }
         }
         
         string IMigrationMetadata.Source
