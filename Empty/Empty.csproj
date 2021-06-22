@@ -239,6 +239,10 @@
     <Compile Include="Migrations\202106221911396_SkillModelAdded.Designer.cs">
       <DependentUpon>202106221911396_SkillModelAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106221913067_Skill_Employee_relation.cs" />
+    <Compile Include="Migrations\202106221913067_Skill_Employee_relation.Designer.cs">
+      <DependentUpon>202106221913067_Skill_Employee_relation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
@@ -365,6 +369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106221911396_SkillModelAdded.resx">
       <DependentUpon>202106221911396_SkillModelAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106221913067_Skill_Employee_relation.resx">
+      <DependentUpon>202106221913067_Skill_Employee_relation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
