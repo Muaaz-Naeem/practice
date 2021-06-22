@@ -235,6 +235,10 @@
     <Compile Include="Migrations\202106221905136_biographyNotMapped.Designer.cs">
       <DependentUpon>202106221905136_biographyNotMapped.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106221911396_SkillModelAdded.cs" />
+    <Compile Include="Migrations\202106221911396_SkillModelAdded.Designer.cs">
+      <DependentUpon>202106221911396_SkillModelAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
@@ -358,6 +362,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106221905136_biographyNotMapped.resx">
       <DependentUpon>202106221905136_biographyNotMapped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106221911396_SkillModelAdded.resx">
+      <DependentUpon>202106221911396_SkillModelAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

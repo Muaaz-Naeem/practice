@@ -15,6 +15,7 @@ namespace Empty.Models
         }
         public DbSet<Employee> Employees { get; set; }      
         public DbSet<Gender> Genders { get; set; }      
+        public DbSet<Skill> Skills { get; set; }      
  
     }
 }
