@@ -7,13 +7,13 @@ namespace Empty.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Skill_Employee_relation : IMigrationMetadata
+    public sealed partial class skill_employee_relationBy_Fluent : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Skill_Employee_relation));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(skill_employee_relationBy_Fluent));
         
         string IMigrationMetadata.Id
         {
-            get { return "202106221913067_Skill_Employee_relation"; }
+            get { return "202106222013367_skill_employee_relationBy_Fluent"; }
         }
         
         string IMigrationMetadata.Source
