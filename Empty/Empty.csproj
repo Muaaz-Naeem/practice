@@ -247,12 +247,17 @@
     <Compile Include="Migrations\202106222019218_skill_employee_relation_fluent_maped.Designer.cs">
       <DependentUpon>202106222019218_skill_employee_relation_fluent_maped.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106222026139_skill_employee_relation_removed.cs" />
+    <Compile Include="Migrations\202106222026139_skill_employee_relation_removed.Designer.cs">
+      <DependentUpon>202106222026139_skill_employee_relation_removed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
     <Compile Include="Models\Counter.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeSkills.cs" />
     <Compile Include="Models\FileModel.cs" />
     <Compile Include="Models\Gender.cs" />
     <Compile Include="Models\NextbridgeContext.cs" />
@@ -379,6 +384,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106222019218_skill_employee_relation_fluent_maped.resx">
       <DependentUpon>202106222019218_skill_employee_relation_fluent_maped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106222026139_skill_employee_relation_removed.resx">
+      <DependentUpon>202106222026139_skill_employee_relation_removed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

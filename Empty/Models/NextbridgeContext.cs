@@ -20,14 +20,14 @@ namespace Empty.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>()
-                            .HasMany(s => s.Skills)
-                            .WithMany(e => e.Employees)
-                            .Map(c=> {
-                                c.MapLeftKey("EmployeeID");
-                                c.MapRightKey("SkillID");
-                                c.ToTable("EmployeeSkill");
-                            });
+            //modelBuilder.Entity<Employee>()
+            //                .HasMany(s => s.Skills)
+            //                .WithMany(e => e.Employees)
+            //                .Map(c=> {
+            //                    c.MapLeftKey("EmployeeID");
+            //                    c.MapRightKey("SkillID");
+            //                    c.ToTable("EmployeeSkill");
+            //                });
         }
 
     }

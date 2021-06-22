@@ -93,3 +93,4 @@ C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.biog
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.SkillModelAdded.resources
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.skill_employee_relationBy_Fluent.resources
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.skill_employee_relation_fluent_maped.resources
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.skill_employee_relation_removed.resources
