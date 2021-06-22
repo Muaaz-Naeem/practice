@@ -231,6 +231,14 @@
     <Compile Include="Migrations\202106221642403_SeedingGenderModel.Designer.cs">
       <DependentUpon>202106221642403_SeedingGenderModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106221858053_biographyNotMapped.cs" />
+    <Compile Include="Migrations\202106221858053_biographyNotMapped.Designer.cs">
+      <DependentUpon>202106221858053_biographyNotMapped.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106221901541_biographyNotMapped1.cs" />
+    <Compile Include="Migrations\202106221901541_biographyNotMapped1.Designer.cs">
+      <DependentUpon>202106221901541_biographyNotMapped1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
@@ -350,6 +358,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106221642403_SeedingGenderModel.resx">
       <DependentUpon>202106221642403_SeedingGenderModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106221858053_biographyNotMapped.resx">
+      <DependentUpon>202106221858053_biographyNotMapped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106221901541_biographyNotMapped1.resx">
+      <DependentUpon>202106221901541_biographyNotMapped1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
