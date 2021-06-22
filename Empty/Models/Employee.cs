@@ -16,5 +16,7 @@ namespace Empty.Models
 
         public string Biography { get; set; }
 
+        public List<Skill> Skills { get; set; }
+
     }
 }
