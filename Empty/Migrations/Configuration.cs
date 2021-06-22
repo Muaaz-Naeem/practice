@@ -10,10 +10,12 @@ namespace Empty.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "Empty.NextbridgeContext";
         }
 
         protected override void Seed(Empty.Models.NextbridgeContext context)
-        {
+        { 
+                                                                                                    
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 

@@ -9,9 +9,11 @@ namespace Empty.Models
     public class NextbridgeContext:DbContext
     {
         public NextbridgeContext()
+            :base("SchoolDbContext")
         {
 
-         }
-        public DbSet<Employee> employees { get; set; }
+        }
+        public DbSet<Employee> employees { get; set; }      
+ 
     }
 }
