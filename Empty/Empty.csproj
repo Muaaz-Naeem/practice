@@ -223,6 +223,14 @@
     <Compile Include="Migrations\202106212131061_Email_added_to_EmployeeModel.Designer.cs">
       <DependentUpon>202106212131061_Email_added_to_EmployeeModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106221641460_GenderModelAdded.cs" />
+    <Compile Include="Migrations\202106221641460_GenderModelAdded.Designer.cs">
+      <DependentUpon>202106221641460_GenderModelAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106221642403_SeedingGenderModel.cs" />
+    <Compile Include="Migrations\202106221642403_SeedingGenderModel.Designer.cs">
+      <DependentUpon>202106221642403_SeedingGenderModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\ContextItem.cs" />
@@ -336,6 +344,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106212131061_Email_added_to_EmployeeModel.resx">
       <DependentUpon>202106212131061_Email_added_to_EmployeeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106221641460_GenderModelAdded.resx">
+      <DependentUpon>202106221641460_GenderModelAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106221642403_SeedingGenderModel.resx">
+      <DependentUpon>202106221642403_SeedingGenderModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

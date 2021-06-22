@@ -1,5 +1,6 @@
 namespace Empty.Migrations
 {
+    using Empty.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -15,8 +16,13 @@ namespace Empty.Migrations
         }
 
         protected override void Seed(Empty.Models.NextbridgeContext context)
-        { 
-                                                                                                    
+        {
+
+            context.Genders.AddOrUpdate(x => x.ID,
+                new Gender() { ID = 1, Value = "Male" },
+                new Gender() { ID = 2, Value = "Female" }
+                );
+
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 

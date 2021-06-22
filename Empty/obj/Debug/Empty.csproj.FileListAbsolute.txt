@@ -87,3 +87,5 @@ C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.init
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.csproj.GenerateResource.cache
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.biography_added_to_EmployeeModel.resources
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.Email_added_to_EmployeeModel.resources
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.GenderModelAdded.resources
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.SeedingGenderModel.resources
