@@ -96,3 +96,11 @@ C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.skil
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.skill_employee_relation_removed.resources
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.employee_skill_model.resources
 C:\Users\muhammad.muaaz\source\repos\Empty\Empty\obj\Debug\Empty.Migrations.employee_and_skil_linked_employeeSkills.resources
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Unity.Abstractions.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Unity.Container.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Unity.Mvc5.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Unity.Abstractions.pdb
+C:\Users\muhammad.muaaz\source\repos\Empty\Empty\bin\Unity.Container.pdb

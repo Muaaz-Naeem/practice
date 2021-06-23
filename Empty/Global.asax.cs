@@ -14,6 +14,7 @@ namespace Empty
         protected void Application_Start()
         {
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            UnityConfig.RegisterComponents();
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
